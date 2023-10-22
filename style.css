@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* overflow: hidden; */
 }
 
 body{
@@ -70,18 +71,7 @@ header img {
   color:hsl(300, 69%, 71%) ;
   box-shadow:-1px 1px 5px rgb(70, 68, 68);
 }
-#facebook {
-  color: white;
-  font-size: 23px;
-}
-#twitter {
-  color: white;
-  font-size: 23px;
-}
-#instagram {
-  color: white;
-  font-size: 23px;
-}
+
 footer {
   width: 30%;
   margin: 20px auto 0px auto;
@@ -91,6 +81,13 @@ footer {
   justify-content: space-around;
 }
 
+.icons i {
+  color: white;
+  font-size: 15px;
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 100px;
+}
 
 /* media query */
 @media(min-width: 1024px){
@@ -131,5 +128,15 @@ footer {
     line-height: 1.5rem;
     /* width: 94%; */
     /* text-align: center; */
+}
+ footer {
+  width: 8%;
+  margin: 0px 0px 13px 87%;
+  
+}
+  .icons {
+  display: flex;
+  justify-content: space-around;
+  
 }
 }
