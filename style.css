@@ -81,12 +81,15 @@ footer {
   justify-content: space-around;
 }
 
-.icons i {
+.icons a>i {
   color: white;
   font-size: 15px;
   padding: 5px;
   border: 1px solid white;
   border-radius: 100px;
+}
+i:hover {
+  background-color: hsl(300, 69%, 71%);
 }
 
 /* media query */
